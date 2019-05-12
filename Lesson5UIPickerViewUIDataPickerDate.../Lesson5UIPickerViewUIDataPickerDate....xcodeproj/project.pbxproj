@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF552B5421973D3900DB1486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552B5321973D3900DB1486 /* AppDelegate.swift */; };
+		AF552B5621973D3900DB1486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552B5521973D3900DB1486 /* ViewController.swift */; };
+		AF552B5921973D3900DB1486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF552B5721973D3900DB1486 /* Main.storyboard */; };
+		AF552B5B21973D3C00DB1486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF552B5A21973D3C00DB1486 /* Assets.xcassets */; };
+		AF552B5E21973D3C00DB1486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF552B5C21973D3C00DB1486 /* LaunchScreen.storyboard */; };
+		AF552B6921973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552B6821973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___Tests.swift */; };
+		AF552B7421973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552B7321973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF552B6521973D3D00DB1486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF552B4821973D3900DB1486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF552B4F21973D3900DB1486;
+			remoteInfo = Lesson5UIPickerViewUIDataPickerDate...;
+		};
+		AF552B7021973D3D00DB1486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF552B4821973D3900DB1486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF552B4F21973D3900DB1486;
+			remoteInfo = Lesson5UIPickerViewUIDataPickerDate...;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF552B5021973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate....app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson5UIPickerViewUIDataPickerDate....app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF552B5321973D3900DB1486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF552B5521973D3900DB1486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF552B5821973D3900DB1486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF552B5A21973D3C00DB1486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF552B5D21973D3C00DB1486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF552B5F21973D3C00DB1486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF552B6421973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson5UIPickerViewUIDataPickerDate...Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF552B6821973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson5UIPickerViewUIDataPickerDate___Tests.swift"; sourceTree = "<group>"; };
+		AF552B6A21973D3D00DB1486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF552B6F21973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson5UIPickerViewUIDataPickerDate...UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF552B7321973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson5UIPickerViewUIDataPickerDate___UITests.swift"; sourceTree = "<group>"; };
+		AF552B7521973D3D00DB1486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF552B4D21973D3900DB1486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552B6121973D3D00DB1486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552B6C21973D3D00DB1486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF552B4721973D3900DB1486 = {
+			isa = PBXGroup;
+			children = (
+				AF552B5221973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate... */,
+				AF552B6721973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...Tests */,
+				AF552B7221973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...UITests */,
+				AF552B5121973D3900DB1486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF552B5121973D3900DB1486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF552B5021973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate....app */,
+				AF552B6421973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...Tests.xctest */,
+				AF552B6F21973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF552B5221973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate... */ = {
+			isa = PBXGroup;
+			children = (
+				AF552B5321973D3900DB1486 /* AppDelegate.swift */,
+				AF552B5521973D3900DB1486 /* ViewController.swift */,
+				AF552B5721973D3900DB1486 /* Main.storyboard */,
+				AF552B5A21973D3C00DB1486 /* Assets.xcassets */,
+				AF552B5C21973D3C00DB1486 /* LaunchScreen.storyboard */,
+				AF552B5F21973D3C00DB1486 /* Info.plist */,
+			);
+			path = Lesson5UIPickerViewUIDataPickerDate...;
+			sourceTree = "<group>";
+		};
+		AF552B6721973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF552B6821973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___Tests.swift */,
+				AF552B6A21973D3D00DB1486 /* Info.plist */,
+			);
+			path = Lesson5UIPickerViewUIDataPickerDate...Tests;
+			sourceTree = "<group>";
+		};
+		AF552B7221973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF552B7321973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___UITests.swift */,
+				AF552B7521973D3D00DB1486 /* Info.plist */,
+			);
+			path = Lesson5UIPickerViewUIDataPickerDate...UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF552B4F21973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate... */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF552B7821973D3D00DB1486 /* Build configuration list for PBXNativeTarget "Lesson5UIPickerViewUIDataPickerDate..." */;
+			buildPhases = (
+				AF552B4C21973D3900DB1486 /* Sources */,
+				AF552B4D21973D3900DB1486 /* Frameworks */,
+				AF552B4E21973D3900DB1486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lesson5UIPickerViewUIDataPickerDate...;
+			productName = Lesson5UIPickerViewUIDataPickerDate...;
+			productReference = AF552B5021973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate....app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF552B6321973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF552B7B21973D3D00DB1486 /* Build configuration list for PBXNativeTarget "Lesson5UIPickerViewUIDataPickerDate...Tests" */;
+			buildPhases = (
+				AF552B6021973D3D00DB1486 /* Sources */,
+				AF552B6121973D3D00DB1486 /* Frameworks */,
+				AF552B6221973D3D00DB1486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF552B6621973D3D00DB1486 /* PBXTargetDependency */,
+			);
+			name = Lesson5UIPickerViewUIDataPickerDate...Tests;
+			productName = Lesson5UIPickerViewUIDataPickerDate...Tests;
+			productReference = AF552B6421973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF552B6E21973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF552B7E21973D3D00DB1486 /* Build configuration list for PBXNativeTarget "Lesson5UIPickerViewUIDataPickerDate...UITests" */;
+			buildPhases = (
+				AF552B6B21973D3D00DB1486 /* Sources */,
+				AF552B6C21973D3D00DB1486 /* Frameworks */,
+				AF552B6D21973D3D00DB1486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF552B7121973D3D00DB1486 /* PBXTargetDependency */,
+			);
+			name = Lesson5UIPickerViewUIDataPickerDate...UITests;
+			productName = Lesson5UIPickerViewUIDataPickerDate...UITests;
+			productReference = AF552B6F21973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF552B4821973D3900DB1486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Vanjo;
+				TargetAttributes = {
+					AF552B4F21973D3900DB1486 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AF552B6321973D3D00DB1486 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AF552B4F21973D3900DB1486;
+					};
+					AF552B6E21973D3D00DB1486 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AF552B4F21973D3900DB1486;
+					};
+				};
+			};
+			buildConfigurationList = AF552B4B21973D3900DB1486 /* Build configuration list for PBXProject "Lesson5UIPickerViewUIDataPickerDate..." */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF552B4721973D3900DB1486;
+			productRefGroup = AF552B5121973D3900DB1486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF552B4F21973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate... */,
+				AF552B6321973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...Tests */,
+				AF552B6E21973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate...UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF552B4E21973D3900DB1486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552B5E21973D3C00DB1486 /* LaunchScreen.storyboard in Resources */,
+				AF552B5B21973D3C00DB1486 /* Assets.xcassets in Resources */,
+				AF552B5921973D3900DB1486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552B6221973D3D00DB1486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552B6D21973D3D00DB1486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF552B4C21973D3900DB1486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552B5621973D3900DB1486 /* ViewController.swift in Sources */,
+				AF552B5421973D3900DB1486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552B6021973D3D00DB1486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552B6921973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552B6B21973D3D00DB1486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552B7421973D3D00DB1486 /* Lesson5UIPickerViewUIDataPickerDate___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF552B6621973D3D00DB1486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF552B4F21973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate... */;
+			targetProxy = AF552B6521973D3D00DB1486 /* PBXContainerItemProxy */;
+		};
+		AF552B7121973D3D00DB1486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF552B4F21973D3900DB1486 /* Lesson5UIPickerViewUIDataPickerDate... */;
+			targetProxy = AF552B7021973D3D00DB1486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF552B5721973D3900DB1486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF552B5821973D3900DB1486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF552B5C21973D3C00DB1486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF552B5D21973D3C00DB1486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF552B7621973D3D00DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF552B7721973D3D00DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF552B7921973D3D00DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 779L93M27G;
+				INFOPLIST_FILE = Lesson5UIPickerViewUIDataPickerDate.../Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Lesson5UIPickerViewUIDataPickerDate---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF552B7A21973D3D00DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 779L93M27G;
+				INFOPLIST_FILE = Lesson5UIPickerViewUIDataPickerDate.../Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Lesson5UIPickerViewUIDataPickerDate---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF552B7C21973D3D00DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson5UIPickerViewUIDataPickerDate...Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Lesson5UIPickerViewUIDataPickerDate---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson5UIPickerViewUIDataPickerDate....app/Lesson5UIPickerViewUIDataPickerDate...";
+			};
+			name = Debug;
+		};
+		AF552B7D21973D3D00DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson5UIPickerViewUIDataPickerDate...Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Lesson5UIPickerViewUIDataPickerDate---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson5UIPickerViewUIDataPickerDate....app/Lesson5UIPickerViewUIDataPickerDate...";
+			};
+			name = Release;
+		};
+		AF552B7F21973D3D00DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson5UIPickerViewUIDataPickerDate...UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Lesson5UIPickerViewUIDataPickerDate---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lesson5UIPickerViewUIDataPickerDate...;
+			};
+			name = Debug;
+		};
+		AF552B8021973D3D00DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lesson5UIPickerViewUIDataPickerDate...UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Lesson5UIPickerViewUIDataPickerDate---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lesson5UIPickerViewUIDataPickerDate...;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF552B4B21973D3900DB1486 /* Build configuration list for PBXProject "Lesson5UIPickerViewUIDataPickerDate..." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B7621973D3D00DB1486 /* Debug */,
+				AF552B7721973D3D00DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF552B7821973D3D00DB1486 /* Build configuration list for PBXNativeTarget "Lesson5UIPickerViewUIDataPickerDate..." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B7921973D3D00DB1486 /* Debug */,
+				AF552B7A21973D3D00DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF552B7B21973D3D00DB1486 /* Build configuration list for PBXNativeTarget "Lesson5UIPickerViewUIDataPickerDate...Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B7C21973D3D00DB1486 /* Debug */,
+				AF552B7D21973D3D00DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF552B7E21973D3D00DB1486 /* Build configuration list for PBXNativeTarget "Lesson5UIPickerViewUIDataPickerDate...UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B7F21973D3D00DB1486 /* Debug */,
+				AF552B8021973D3D00DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF552B4821973D3900DB1486 /* Project object */;
+}

@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF552ADE2196061F00DB1486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552ADD2196061F00DB1486 /* AppDelegate.swift */; };
+		AF552AE02196061F00DB1486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552ADF2196061F00DB1486 /* ViewController.swift */; };
+		AF552AE32196061F00DB1486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF552AE12196061F00DB1486 /* Main.storyboard */; };
+		AF552AE52196061F00DB1486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF552AE42196061F00DB1486 /* Assets.xcassets */; };
+		AF552AE82196061F00DB1486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF552AE62196061F00DB1486 /* LaunchScreen.storyboard */; };
+		AF552AF32196062000DB1486 /* Constrains_LoyautTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552AF22196062000DB1486 /* Constrains_LoyautTests.swift */; };
+		AF552AFE2196062000DB1486 /* Constrains_LoyautUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF552AFD2196062000DB1486 /* Constrains_LoyautUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF552AEF2196062000DB1486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF552AD22196061F00DB1486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF552AD92196061F00DB1486;
+			remoteInfo = "Constrains Loyaut";
+		};
+		AF552AFA2196062000DB1486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF552AD22196061F00DB1486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF552AD92196061F00DB1486;
+			remoteInfo = "Constrains Loyaut";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF552ADA2196061F00DB1486 /* Constrains Loyaut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Constrains Loyaut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF552ADD2196061F00DB1486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF552ADF2196061F00DB1486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF552AE22196061F00DB1486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF552AE42196061F00DB1486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF552AE72196061F00DB1486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF552AE92196061F00DB1486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF552AEE2196062000DB1486 /* Constrains LoyautTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Constrains LoyautTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF552AF22196062000DB1486 /* Constrains_LoyautTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrains_LoyautTests.swift; sourceTree = "<group>"; };
+		AF552AF42196062000DB1486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF552AF92196062000DB1486 /* Constrains LoyautUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Constrains LoyautUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF552AFD2196062000DB1486 /* Constrains_LoyautUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrains_LoyautUITests.swift; sourceTree = "<group>"; };
+		AF552AFF2196062000DB1486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF552AD72196061F00DB1486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552AEB2196062000DB1486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552AF62196062000DB1486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF552AD12196061F00DB1486 = {
+			isa = PBXGroup;
+			children = (
+				AF552ADC2196061F00DB1486 /* Constrains Loyaut */,
+				AF552AF12196062000DB1486 /* Constrains LoyautTests */,
+				AF552AFC2196062000DB1486 /* Constrains LoyautUITests */,
+				AF552ADB2196061F00DB1486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF552ADB2196061F00DB1486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF552ADA2196061F00DB1486 /* Constrains Loyaut.app */,
+				AF552AEE2196062000DB1486 /* Constrains LoyautTests.xctest */,
+				AF552AF92196062000DB1486 /* Constrains LoyautUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF552ADC2196061F00DB1486 /* Constrains Loyaut */ = {
+			isa = PBXGroup;
+			children = (
+				AF552ADD2196061F00DB1486 /* AppDelegate.swift */,
+				AF552ADF2196061F00DB1486 /* ViewController.swift */,
+				AF552AE12196061F00DB1486 /* Main.storyboard */,
+				AF552AE42196061F00DB1486 /* Assets.xcassets */,
+				AF552AE62196061F00DB1486 /* LaunchScreen.storyboard */,
+				AF552AE92196061F00DB1486 /* Info.plist */,
+			);
+			path = "Constrains Loyaut";
+			sourceTree = "<group>";
+		};
+		AF552AF12196062000DB1486 /* Constrains LoyautTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF552AF22196062000DB1486 /* Constrains_LoyautTests.swift */,
+				AF552AF42196062000DB1486 /* Info.plist */,
+			);
+			path = "Constrains LoyautTests";
+			sourceTree = "<group>";
+		};
+		AF552AFC2196062000DB1486 /* Constrains LoyautUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF552AFD2196062000DB1486 /* Constrains_LoyautUITests.swift */,
+				AF552AFF2196062000DB1486 /* Info.plist */,
+			);
+			path = "Constrains LoyautUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF552AD92196061F00DB1486 /* Constrains Loyaut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF552B022196062000DB1486 /* Build configuration list for PBXNativeTarget "Constrains Loyaut" */;
+			buildPhases = (
+				AF552AD62196061F00DB1486 /* Sources */,
+				AF552AD72196061F00DB1486 /* Frameworks */,
+				AF552AD82196061F00DB1486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Constrains Loyaut";
+			productName = "Constrains Loyaut";
+			productReference = AF552ADA2196061F00DB1486 /* Constrains Loyaut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF552AED2196062000DB1486 /* Constrains LoyautTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF552B052196062000DB1486 /* Build configuration list for PBXNativeTarget "Constrains LoyautTests" */;
+			buildPhases = (
+				AF552AEA2196062000DB1486 /* Sources */,
+				AF552AEB2196062000DB1486 /* Frameworks */,
+				AF552AEC2196062000DB1486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF552AF02196062000DB1486 /* PBXTargetDependency */,
+			);
+			name = "Constrains LoyautTests";
+			productName = "Constrains LoyautTests";
+			productReference = AF552AEE2196062000DB1486 /* Constrains LoyautTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF552AF82196062000DB1486 /* Constrains LoyautUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF552B082196062000DB1486 /* Build configuration list for PBXNativeTarget "Constrains LoyautUITests" */;
+			buildPhases = (
+				AF552AF52196062000DB1486 /* Sources */,
+				AF552AF62196062000DB1486 /* Frameworks */,
+				AF552AF72196062000DB1486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF552AFB2196062000DB1486 /* PBXTargetDependency */,
+			);
+			name = "Constrains LoyautUITests";
+			productName = "Constrains LoyautUITests";
+			productReference = AF552AF92196062000DB1486 /* Constrains LoyautUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF552AD22196061F00DB1486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Vanjo;
+				TargetAttributes = {
+					AF552AD92196061F00DB1486 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AF552AED2196062000DB1486 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AF552AD92196061F00DB1486;
+					};
+					AF552AF82196062000DB1486 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AF552AD92196061F00DB1486;
+					};
+				};
+			};
+			buildConfigurationList = AF552AD52196061F00DB1486 /* Build configuration list for PBXProject "Constrains Loyaut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF552AD12196061F00DB1486;
+			productRefGroup = AF552ADB2196061F00DB1486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF552AD92196061F00DB1486 /* Constrains Loyaut */,
+				AF552AED2196062000DB1486 /* Constrains LoyautTests */,
+				AF552AF82196062000DB1486 /* Constrains LoyautUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF552AD82196061F00DB1486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552AE82196061F00DB1486 /* LaunchScreen.storyboard in Resources */,
+				AF552AE52196061F00DB1486 /* Assets.xcassets in Resources */,
+				AF552AE32196061F00DB1486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552AEC2196062000DB1486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552AF72196062000DB1486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF552AD62196061F00DB1486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552AE02196061F00DB1486 /* ViewController.swift in Sources */,
+				AF552ADE2196061F00DB1486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552AEA2196062000DB1486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552AF32196062000DB1486 /* Constrains_LoyautTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF552AF52196062000DB1486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF552AFE2196062000DB1486 /* Constrains_LoyautUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF552AF02196062000DB1486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF552AD92196061F00DB1486 /* Constrains Loyaut */;
+			targetProxy = AF552AEF2196062000DB1486 /* PBXContainerItemProxy */;
+		};
+		AF552AFB2196062000DB1486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF552AD92196061F00DB1486 /* Constrains Loyaut */;
+			targetProxy = AF552AFA2196062000DB1486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF552AE12196061F00DB1486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF552AE22196061F00DB1486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF552AE62196061F00DB1486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF552AE72196061F00DB1486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF552B002196062000DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF552B012196062000DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF552B032196062000DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 779L93M27G;
+				INFOPLIST_FILE = "Constrains Loyaut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Constrains-Loyaut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF552B042196062000DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 779L93M27G;
+				INFOPLIST_FILE = "Constrains Loyaut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Constrains-Loyaut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF552B062196062000DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Constrains LoyautTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Constrains-LoyautTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Constrains Loyaut.app/Constrains Loyaut";
+			};
+			name = Debug;
+		};
+		AF552B072196062000DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Constrains LoyautTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Constrains-LoyautTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Constrains Loyaut.app/Constrains Loyaut";
+			};
+			name = Release;
+		};
+		AF552B092196062000DB1486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Constrains LoyautUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Constrains-LoyautUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Constrains Loyaut";
+			};
+			name = Debug;
+		};
+		AF552B0A2196062000DB1486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Constrains LoyautUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vanjo.Constrains-LoyautUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Constrains Loyaut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF552AD52196061F00DB1486 /* Build configuration list for PBXProject "Constrains Loyaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B002196062000DB1486 /* Debug */,
+				AF552B012196062000DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF552B022196062000DB1486 /* Build configuration list for PBXNativeTarget "Constrains Loyaut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B032196062000DB1486 /* Debug */,
+				AF552B042196062000DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF552B052196062000DB1486 /* Build configuration list for PBXNativeTarget "Constrains LoyautTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B062196062000DB1486 /* Debug */,
+				AF552B072196062000DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF552B082196062000DB1486 /* Build configuration list for PBXNativeTarget "Constrains LoyautUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF552B092196062000DB1486 /* Debug */,
+				AF552B0A2196062000DB1486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF552AD22196061F00DB1486 /* Project object */;
+}
