@@ -13,6 +13,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         /*
         let queue = DispatchQueue.global(qos: .unspecified)
         queue.async {
@@ -22,6 +23,7 @@ class SecondViewController: UIViewController {
             }
         }
         */
+ 
         
         myInactiveQueue()
     }

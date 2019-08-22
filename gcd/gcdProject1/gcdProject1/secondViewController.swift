@@ -59,7 +59,7 @@ class SecondViewController: UIViewController {
         
         self.present(alert, animated: true, completion: nil)
     }
-    
+    ///Grand Central Dispatch - GCD
     fileprivate func fetchImage() {
         imageURL = URL(string: "https://apps4.life/img/wp-content/uploads/2017/03/boombeach_og.jpg?width=940&height=573")
         activityIndecator.isHidden = false
@@ -73,3 +73,4 @@ class SecondViewController: UIViewController {
         }
     }
 }
+

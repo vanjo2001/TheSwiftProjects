@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.15"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DataSourcee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lu2-JQ-jag">
+                                <rect key="frame" x="64.666666666666686" y="348.66666666666669" width="246" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="UaG-aW-bxg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="246" id="m0F-zS-PnP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CSt-5L-9Mk">
+                                <rect key="frame" x="163" y="395.66666666666669" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="507-pJ-Iye"/>
+                                    <constraint firstAttribute="height" constant="31" id="KUa-PD-3Zr"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="switchHandler:" destination="BYZ-38-t0r" eventType="valueChanged" id="dEX-kt-udR"/>
+                                </connections>
+                            </switch>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TII-eo-5T7">
+                                <rect key="frame" x="64.666666666666686" y="307" width="246" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="246" id="7hw-9B-lWm"/>
+                                    <constraint firstAttribute="height" constant="34" id="ELH-Cv-z0p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avH-9c-FtE">
+                                <rect key="frame" x="64.666666666666686" y="299" width="246" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="0Ew-tE-Lv1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="246" id="Qxh-VA-1uN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CSt-5L-9Mk" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="55i-8c-d18"/>
+                            <constraint firstItem="TII-eo-5T7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DJx-mN-Sep"/>
+                            <constraint firstItem="TII-eo-5T7" firstAttribute="top" secondItem="avH-9c-FtE" secondAttribute="bottom" constant="8" id="Ji3-6U-Frr"/>
+                            <constraint firstItem="CSt-5L-9Mk" firstAttribute="top" secondItem="Lu2-JQ-jag" secondAttribute="bottom" constant="12.67" id="ZbS-ps-VDo"/>
+                            <constraint firstItem="avH-9c-FtE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hH1-H0-MSY"/>
+                            <constraint firstItem="CSt-5L-9Mk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iV1-Aj-tMD"/>
+                            <constraint firstItem="Lu2-JQ-jag" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="m9t-3o-pRx"/>
+                            <constraint firstItem="Lu2-JQ-jag" firstAttribute="top" secondItem="TII-eo-5T7" secondAttribute="bottom" constant="7.6699999999999999" id="yif-iq-2Mi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="myLabel" destination="avH-9c-FtE" id="cxg-wm-3M0"/>
+                        <outlet property="mySwitch" destination="CSt-5L-9Mk" id="qi5-Yc-pwh"/>
+                        <outlet property="nameField" destination="TII-eo-5T7" id="vwo-25-dno"/>
+                        <outlet property="surName" destination="Lu2-JQ-jag" id="XN8-hJ-Tqx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117.3913043478262" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+</document>
